@@ -4,3 +4,4 @@ nltk
 tensorflow
 keras
 matplotlib
+streamlit
