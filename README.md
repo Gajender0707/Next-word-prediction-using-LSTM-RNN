@@ -19,8 +19,8 @@ This project deploys an **LSTM-based text classification model** using **Streaml
 ## **🔹 Installation**
 ### **1️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/your-repo/streamlit-lstm.git
-cd streamlit-lstm
+git clone https://github.com/Gajender0707/Next-word-prediction-using-LSTM-RNN.git
+cd Next-word-prediction-using-LSTM-RNN
 ```
 
 ### **2️⃣ Install Dependencies**
@@ -40,18 +40,18 @@ streamlit run app.py
 2. Go to [Streamlit Cloud](https://streamlit.io/cloud).
 3. Connect your GitHub repo and deploy.
 
-### **2️⃣ Deploy on Heroku**
-1. Create a `requirements.txt` file.
-2. Use `Procfile` to define the Streamlit command.
-3. Deploy using **Heroku CLI**.
 
 ---
 ## **📌 Dependencies (`requirements.txt`)**
 ```txt
-streamlit
-tensorflow
+pandas
 numpy
-pickle-mixin
+nltk
+tensorflow
+keras
+matplotlib
+streamlit
+scikit-learn
 ```
 
 ---
@@ -59,7 +59,7 @@ pickle-mixin
 ✅ **Train an LSTM model** for text classification.  
 ✅ **Deploy it using Streamlit** with an interactive UI.  
 ✅ **Use a tokenizer** to process text inputs.  
-✅ **Deploy on cloud platforms** (Streamlit Cloud, Heroku, etc.).  
+✅ **Deploy on cloud platforms** (Streamlit Cloud).  
 
 🚀 **Enjoy building AI-powered web apps with Streamlit!**
 
