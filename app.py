@@ -26,7 +26,7 @@ def next_word_prediction(new_sentence,model,tokenizer,max_length):
       next_word=value
 
 #   print(next_word)
-  complete_sent=new_sentence+" "+next_word
+  complete_sent=new_sentence+" "+ next_word
   return complete_sent
 
 complete_sent=next_word_prediction(new_input_sent,model,tokenizer,14)
